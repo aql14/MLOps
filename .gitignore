@@ -1,0 +1,31 @@
+# Environments (uv/venv)
+.venv/
+**/.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+
+# Optional: data & outputs (uncomment if you don't want these in Git)
+# data/
+# **/data/
+# outputs/
+# **/outputs/
