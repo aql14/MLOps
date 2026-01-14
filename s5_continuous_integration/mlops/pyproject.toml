@@ -1,0 +1,70 @@
+[build-system]
+requires = ["uv_build>=0.9.22,<0.10.0"]
+build-backend = "uv_build"
+
+[project]
+name = "s5_ci"
+version = "0.0.1"
+description = "A short description of the project."
+authors = [
+  { name = "alvaro", email = "your@email.com" },
+]
+
+keywords = ["machine learning", "mlops"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    # Data / notebooks
+    "gdown>=5.2.0",
+    "ipykernel>=7.1.0",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.3.2",
+    # CLI
+    "typer>=0.15.1",
+    # Serving
+    "fastapi==0.115.6",
+    "uvicorn==0.34.0",
+    # PyTorch (CPU) via explicit index below
+    "torch==2.6.0",
+    "torchvision==0.21.0",
+    "torchaudio==2.6.0",
+    "snakeviz>=2.2.2",
+    "torch-tb-profiler>=0.4.3",
+    "loguru>=0.7.3",
+    "wandb>=0.23.1",
+]
+
+[dependency-groups]
+dev = [
+    "coverage==7.6.9",
+    "invoke==2.2.0",
+    "mkdocs-material==9.4.6",
+    "mkdocs==1.6.1",
+    "mkdocstrings-python==1.12.2",
+    "pre-commit==4.1.0",
+    "pytest==8.3.4",
+    "ruff==0.1.3",
+]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+torchvision = [{ index = "pytorch-cpu" }]
+torchaudio = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.ruff]
+line-length = 120
+
+[tool.coverage.run]
+omit = ["tests/*"]
+
