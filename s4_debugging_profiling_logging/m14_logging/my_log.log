@@ -1,0 +1,15 @@
+2026-01-13 17:11:54.891 | DEBUG    | __main__:<module>:5 - Used for debugging your code.
+2026-01-13 17:11:54.891 | INFO     | __main__:<module>:6 - Informative messages from your code.
+2026-01-13 17:11:54.891 | WARNING  | __main__:<module>:7 - Everything works but there is something to be aware of.
+2026-01-13 17:11:54.892 | ERROR    | __main__:<module>:8 - There's been a mistake with the process.
+2026-01-13 17:11:54.892 | CRITICAL | __main__:<module>:9 - There is something terribly wrong and process may terminate.
+2026-01-13 17:13:06.136 | DEBUG    | __main__:<module>:12 - Used for debugging your code.
+2026-01-13 17:13:06.136 | INFO     | __main__:<module>:13 - Informative messages from your code.
+2026-01-13 17:13:06.136 | WARNING  | __main__:<module>:14 - Everything works but there is something to be aware of.
+2026-01-13 17:13:06.137 | ERROR    | __main__:<module>:15 - There's been a mistake with the process.
+2026-01-13 17:13:06.137 | CRITICAL | __main__:<module>:16 - There is something terribly wrong and process may terminate.
+2026-01-13 17:14:12.852 | DEBUG    | __main__:<module>:14 - Used for debugging your code.
+2026-01-13 17:14:12.852 | INFO     | __main__:<module>:15 - Informative messages from your code.
+2026-01-13 17:14:12.852 | WARNING  | __main__:<module>:16 - Everything works but there is something to be aware of.
+2026-01-13 17:14:12.852 | ERROR    | __main__:<module>:17 - There's been a mistake with the process.
+2026-01-13 17:14:12.852 | CRITICAL | __main__:<module>:18 - There is something terribly wrong and process may terminate.

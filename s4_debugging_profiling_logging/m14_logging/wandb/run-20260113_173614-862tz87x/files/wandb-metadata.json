@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2026-01-13T16:36:14.669980Z",
+  "args":  [
+    "train"
+  ],
+  "program":  "C:\\Users\\alvar\\Desktop\\02476_MLOPS\\s4_debugging_profiling_logging\\m14_logging\\main_solution.py",
+  "codePath":  "s4_debugging_profiling_logging\\m14_logging\\main_solution.py",
+  "codePathLocal":  "main_solution.py",
+  "git":  {
+    "remote":  "https://github.com/aql14/MLOps.git",
+    "commit":  "9ce435dcafcfa017f9e17ff1cddd8f0e5cd00f1c"
+  },
+  "email":  "alvarocuele@gmail.com",
+  "root":  "C:\\Users\\alvar\\Desktop\\02476_MLOPS\\s4_debugging_profiling_logging\\m14_logging",
+  "host":  "DESKTOP-7UGA8HT",
+  "executable":  "C:\\Users\\alvar\\Desktop\\02476_MLOPS\\s4_debugging_profiling_logging\\.venv\\Scripts\\python.exe",
+  "cpu_count":  8,
+  "cpu_count_logical":  16,
+  "disk":  {
+    "/":  {
+      "total":  "510850494464",
+      "used":  "290444103680"
+    }
+  },
+  "memory":  {
+    "total":  "16442789888"
+  },
+  "writerId":  "u45j6ioepb62v0br8sjzzz5jkbdjk9z6"
+}

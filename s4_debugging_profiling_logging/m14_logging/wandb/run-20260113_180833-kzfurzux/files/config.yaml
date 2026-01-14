@@ -1,0 +1,56 @@
+_wandb:
+    value:
+        cli_version: 0.23.1
+        e:
+            qfcx6x2ou4ib8vlq1y9qg9msi4cf5dvm:
+                args:
+                    - train
+                    - --batch_size=32
+                    - --epochs=5
+                    - --lr=0.00015151971829911
+                codePath: s4_debugging_profiling_logging\m14_logging\main_solution.py
+                codePathLocal: main_solution.py
+                cpu_count: 8
+                cpu_count_logical: 16
+                disk:
+                    /:
+                        total: "510850494464"
+                        used: "290469289984"
+                email: alvarocuele@gmail.com
+                executable: C:\Users\alvar\Desktop\02476_MLOPS\s4_debugging_profiling_logging\.venv\Scripts\python.exe
+                git:
+                    commit: 9ce435dcafcfa017f9e17ff1cddd8f0e5cd00f1c
+                    remote: https://github.com/aql14/MLOps.git
+                host: DESKTOP-7UGA8HT
+                memory:
+                    total: "16442789888"
+                os: Windows-11-10.0.26200-SP0
+                program: C:\Users\alvar\Desktop\02476_MLOPS\s4_debugging_profiling_logging\m14_logging\main_solution.py
+                python: CPython 3.12.3
+                root: C:\Users\alvar\Desktop\02476_MLOPS\s4_debugging_profiling_logging\m14_logging
+                startedAt: "2026-01-13T17:08:33.536670Z"
+                writerId: qfcx6x2ou4ib8vlq1y9qg9msi4cf5dvm
+        m: []
+        python_version: 3.12.3
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 14
+                - 16
+                - 61
+            "4": 3.12.3
+            "5": 0.23.1
+            "8":
+                - 3
+            "12": 0.23.1
+            "13": windows-amd64
+batch_size:
+    value: 32
+epochs:
+    value: 5
+lr:
+    value: 0.00015151971829911

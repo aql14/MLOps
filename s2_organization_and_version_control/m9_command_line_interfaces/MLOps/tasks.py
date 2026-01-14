@@ -14,6 +14,12 @@ def python(ctx):
     ctx.run("which python" if os.name != "nt" else "where python")
 
 @task
+def git(ctx, message):
+    ctx.run(f"git add .")
+    ctx.run(f"git commit -m '{message}'")
+    ctx.run(f"git push")
+
+@task
 def preprocess_data(ctx: Context) -> None:
     """Preprocess data."""
     ctx.run(f"uv run src/{PROJECT_NAME}/data.py data/raw data/processed", echo=True, pty=not WINDOWS)

@@ -1,0 +1,30 @@
+program: main_solution.py
+name: sweepdemo
+project: corrupt_mnist
+entity: alvarocuele-danmarks-tekniske-universitet-dtu
+
+method: random
+
+command:
+  - uv
+  - run
+  - python
+  - ${program}
+  - train
+  - ${args}
+
+metric:
+  goal: minimize
+  name: train_loss
+
+parameters:
+  lr:
+    min: 0.0001
+    max: 0.01
+    distribution: log_uniform_values
+  batch_size:
+    values: [16, 32, 64]
+  epochs:
+    values: [5, 10, 15]
+
+run_cap: 10
